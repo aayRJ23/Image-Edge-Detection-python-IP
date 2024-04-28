@@ -1,6 +1,19 @@
 # Edge Detection using Fuzzy Logic
 
-This Python script performs edge detection on an input image using fuzzy logic techniques. It applies the Sobel operator for gradient calculation and fuzzy logic thresholding to detect edges effectively.
+This repository contains a Python script for performing edge detection on images using fuzzy logic techniques. It applies the Sobel operator for gradient calculation and fuzzy logic thresholding to detect edges effectively.
+
+## About
+
+Edge detection is a fundamental step in image processing and computer vision tasks. It is used to identify boundaries and transitions in images, which is essential for various applications such as object detection, image segmentation, and feature extraction.
+
+Traditional edge detection methods, such as the Sobel operator, can be sensitive to noise and may produce false detections in certain scenarios. Fuzzy logic provides a flexible approach to handle uncertainty and imprecision in image processing tasks. By incorporating fuzzy logic into edge detection algorithms, we can improve the robustness and accuracy of edge detection results.
+
+## Features
+
+- **Sobel Operator**: The script utilizes the Sobel operator to compute gradients in the horizontal and vertical directions, which are essential for edge detection.
+- **Fuzzy Logic Thresholding**: Fuzzy logic thresholding is applied to the gradient magnitude to detect edges based on the intensity variations in the image.
+- **Python Implementation**: The script is implemented in Python, making it easy to understand, modify, and integrate into existing projects.
+- **OpenCV and NumPy**: The script leverages the OpenCV and NumPy libraries for image processing and numerical computing tasks, providing efficient and optimized operations.
 
 ## Requirements
 
